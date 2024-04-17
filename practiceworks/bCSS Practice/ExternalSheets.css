@@ -1,0 +1,22 @@
+h1{ color:greenyellow;
+    text-align: center;
+}
+
+p{  font-family: cursive;
+    font-style: italic;
+}
+
+#A1 {   color: green;
+        line-height: 30px;
+        font-family: cursive;
+}
+
+.P1 {   line-height: 30px;
+        background-color: gray;
+        text-align: center;
+}
+
+.P2 {background-color: rgba(109, 192, 54, 0.842);
+}
+
+.P3 {background-color: rgb(183, 71, 206);}

@@ -1,0 +1,83 @@
+* {
+    border: box;
+}
+
+.banner {
+    width: 100%;
+    height: 65px;
+    position: fixed;
+    background-color: rgb(214, 171, 51);
+}
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body{
+    font-family: "Spinnaker", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.Title { 
+    color: white;
+    text-align: center;
+    letter-spacing: -2px;
+    font-family: "Lancelot", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 45px; 
+    padding:10px 400px;
+}
+
+.content {
+    position: relative;
+    top: 80px;
+    size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recipedescription {
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+}
+
+
+.content {
+    width: cover;
+    height: cover;
+    background-image: url('tealemon.jpg') ;
+    background-size: 100%;
+    position: fixed;
+}
+  
+
+.ingredientlist{
+    padding: 50px;
+}
+
+.methods{
+    padding: 50px;
+}
+
+
+.table1{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(252, 244, 222);
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+
+.tablediv{
+    border-style: groove;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.12), 
+                0 2px 2px rgba(0,0,0,0.12), 
+                0 4px 4px rgba(0,0,0,0.12), 
+                0 8px 8px rgba(0,0,0,0.12),
+}

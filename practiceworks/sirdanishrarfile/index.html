@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <!-- How to target an element and get value from it-->
+    <label for="num1">Number1</label>
+    <input id="num1" type="number">
+    <br>
+    
+    <label for="num2">Number2</label>
+    <input id="num2" type="number">
+    <br>
+
+    <button id="add">+</button>
+    <button id="sub">-</button>
+    <button id="mult">x</button>
+    <button id="div">/</button>
+
+
+    <h1 id="result">Result</h1>
+    <ul type="disk">
+        <h4>HTML file Explanation </h4>
+        <li>We have total 7 elements on screen</li>
+        <li>There are two text boxes to take input from user.
+            The text boxes have labels Number 1 and Number 2 and
+            The input tags for each text box has id Nnum1 and num2. 
+        </li>
+        <li>Next we have 4 buttons each performs an arithematic opertaion when 
+            clicked.
+            Each button has its own id as add, sub, mul and div.
+        </li>
+        <li>Lastly we have an h1 tag which shows result when we click on any of the 4 buttons.</li>
+        <li>The list element is just for explanation. It's not a part of the calculator.</li>
+
+        <h4>JS File Explanation </h4>
+        <li>In order to perform any operation on an html element using JS,
+            we need to store it's reference first. Or we need to refer it or we need to grab it first.  
+        </li>
+        <li>So for all of our 7 elements we need to store their reference in variables. 
+            So for each element 2 input tags with ids num1 and num2, 4 buttons with id's add, sub, mul and div,
+            we create 7 variables and store the reference of each element.
+        </li>
+        <li>Now what we want is that we want to show the sum, multiplication, subtraction or division of 
+            two numbers whenever a respective button is clicked.
+        </li>
+        <li>So we use evenlistener on buttons. An event is a click, hover, a keypress etc.
+            So event listener we attach to our 4 buttons will listen or wait for a click.
+            When a click event occurs, The function inside the event listener will be executed.
+        </li>
+        <li>Let's say the user entered 2 numbers and clicked on the add button. 
+            Now the event listener will execute the function inside it.
+            the function for add button takes the VALUE of num1 and num2 and adds them.
+            The value we get using num1.value will be in the form of a string so if we simply write num1.value+num2.value;
+            it will concatenate the numbers rather than adding them. 
+            So we have to use a built in function to convert string into a number or integer so that we can add them.
+            That's why we;ve used parseInt(num1.value) which takes the string value and converts it into an integer. 
+        </li>
+        <li>Now the h1.innerText actually targets our h1 element int the html which has id ="result".
+            When we click on the button let's say add, first the value of 2 numbers is converted int o integers and then we target
+            the h1 element and change its inner text which we set as 'Result', and change it to the calculated sum.
+        </li>
+        <li>Same goes for all the other 3 buttons</li>
+    </ul>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

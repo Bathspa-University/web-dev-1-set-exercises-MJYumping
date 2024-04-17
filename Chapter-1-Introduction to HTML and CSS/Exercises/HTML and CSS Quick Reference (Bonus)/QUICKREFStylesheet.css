@@ -1,0 +1,899 @@
+/* GENERAL */
+/* GENERAL */
+/* GENERAL */
+
+* {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.BodyDiv{
+    background-color: rgb(205, 230, 212);
+}
+
+
+
+
+
+/* HTML HEADER */
+/* HTML HEADER */
+/* HTML HEADER */
+
+.HeaderDiv {
+    text-align: center;
+    padding: 100px auto 40px auto;
+    margin: 0px 0px 0px 0px;
+    background-color: rgb(236, 255, 234);
+}
+
+.HeaderTitle{
+    font-size: 30px;
+    padding: 40px auto 0px auto;
+    margin-bottom: -15px;
+}
+
+.headerdesc{
+    font-size: 20px;
+    /* margin-top: 0px; */
+}
+
+.hr {
+    color: rgb(145, 127, 90);
+    background-color: rgb(145, 127, 90);
+    width: 61.5%;
+}
+
+.MainDiv{
+    width: 62%;
+    margin: 19px auto 20px auto;
+}
+
+
+
+
+
+
+/* HTML HEADER */
+/* HTML HEADER */
+/* HTML HEADER */
+
+.sectionheader-html{
+    background-color: rgb(241, 129, 213);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 35px 50px 20px 50px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+
+
+
+
+
+/* HEAD */
+/* HEAD */
+/* HEAD */
+.headtag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.headtag-header{
+    box-sizing: border-box;
+    background-color: rgb(241, 129, 213);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.headtag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.headtag-code{
+    border-radius: 20px;
+    font-size: 16px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* BODY */
+/* BODY */
+/* BODY */
+.bodytag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 50px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.bodytag-header{
+    box-sizing: border-box;
+    background-color: rgb(241, 129, 213);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.bodytag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.bodytag-code{
+    border-radius: 20px;
+    font-size: 16px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* HEADER */
+/* HEADER */
+/* HEADER */
+
+.headertag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.headertag-header{
+    box-sizing: border-box;
+    background-color: rgb(241, 129, 213);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.headertag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.headertag-code{
+    border-radius: 20px;
+    font-size: 16px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* NAVIGATION */
+/* NAVIGATION */
+/* NAVIGATION */
+.navtag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.navtag-header{
+    box-sizing: border-box;
+    background-color: rgb(241, 129, 213);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.navtag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.navtag-code{
+    border-radius: 20px;
+    font-size: 16px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* MAIN */
+/* MAIN */
+/* MAIN */
+
+.maintag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.maintag-header{
+    box-sizing: border-box;
+    background-color: rgb(241, 129, 213);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.maintag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.maintag-code{
+    border-radius: 20px;
+    font-size: 16px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+
+/* FOOTER */
+/* FOOTER */
+/* FOOTER */
+
+.footertag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.footertag-header{
+    box-sizing: border-box;
+    background-color: rgb(241, 129, 213);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.footertag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.footertag-code{
+    border-radius: 20px;
+    font-size: 16px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* DIV */
+/* DIV */
+/* DIV */
+
+.divtag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.divtag-header{
+    box-sizing: border-box;
+    background-color: rgb(241, 129, 213);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.divtag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.divtag-code{
+    border-radius: 20px;
+    font-size: 16px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* TABLE */
+/* TABLE */
+/* TABLE */
+
+.tabletag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.tabletag-header{
+    box-sizing: border-box;
+    background-color: rgb(241, 129, 213);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.tabletag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.tabletag-code{
+    border-radius: 20px;
+    font-size: 16px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* PARAGRAPH */
+/* PARAGRAPH */
+/* PARAGRAPH */
+
+.paratag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.paratag-header{
+    box-sizing: border-box;
+    background-color: rgb(241, 129, 213);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.paratag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.paratag-code{
+    border-radius: 20px;
+    font-size: 16px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* HEADERS123 */
+/* HEADERS123 */
+/* HEADERS123 */
+
+.ulotag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.ulotag-header{
+    box-sizing: border-box;
+    background-color: rgb(241, 129, 213);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.ulotag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.ulotag-code{
+    border-radius: 20px;
+    line-height: 14px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+
+
+
+/* CSS HEADER */
+/* CSS HEADER */
+/* CSS HEADER */
+
+.sectionheader-css{
+    background-color: rgb(126, 233, 201);
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 130px 50px 20px 50px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+
+
+
+
+
+/* BOX MODEL */
+/* BOX MODEL */
+/* BOX MODEL */
+
+.boxtag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.boxtag-header{
+    box-sizing: border-box;
+    background-color: rgb(126, 233, 201);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.boxtag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.boxtag-code{
+    border-radius: 20px;
+    border: ;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5px 1px 10px;
+    margin: 0px 5% 20px 5%;
+}
+
+.boxtag-code img{
+    width: 80%;
+    height: 80%;
+}
+
+
+
+
+
+/* CLASS AND ID */
+/* CLASS AND ID */
+/* CLASS AND ID */
+
+.classidtag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.classidtag-header{
+    box-sizing: border-box;
+    background-color: rgb(126, 233, 201);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.classidtag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.classidtag-code{
+    border-radius: 20px;
+    line-height: 14px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* PADDING */
+/* PADDING */
+/* PADDING */
+
+.paddingtag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.paddingtag-header{
+    box-sizing: border-box;
+    background-color: rgb(126, 233, 201);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.paddingtag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.paddingtag-code{
+    border-radius: 20px;
+    line-height: 14px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* BORDER */
+/* BORDER */
+/* BORDER */
+
+.bordertag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.bordertag-header{
+    box-sizing: border-box;
+    background-color: rgb(126, 233, 201);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.bordertag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.bordertag-code{
+    border-radius: 20px;
+    line-height: 14px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* MARGIN */
+/* MARGIN */
+/* MARGIN */
+
+.margintag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.margintag-header{
+    box-sizing: border-box;
+    background-color: rgb(126, 233, 201);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.margintag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.margintag-code{
+    border-radius: 20px;
+    line-height: 14px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* BACGKROUND-COLOR */
+/* BACGKROUND-COLOR */
+/* BACGKROUND-COLOR */
+
+.bgcolortag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.bgcolortag-header{
+    box-sizing: border-box;
+    background-color: rgb(126, 233, 201);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.bgcolortag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.bgcolortag-code{
+    border-radius: 20px;
+    line-height: 14px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* FONT */
+/* FONT */
+/* FONT */
+
+.fonttag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.fonttag-header{
+    box-sizing: border-box;
+    background-color: rgb(126, 233, 201);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.fonttag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.fonttag-code{
+    border-radius: 20px;
+    line-height: 14px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* ALIGN */
+/* ALIGN */
+/* ALIGN */
+
+.aligntag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.aligntag-header{
+    box-sizing: border-box;
+    background-color: rgb(126, 233, 201);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.aligntag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.aligntag-code{
+    border-radius: 20px;
+    line-height: 14px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* COLOR */
+/* COLOR */
+/* COLOR */
+
+.colortag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.colortag-header{
+    box-sizing: border-box;
+    background-color: rgb(126, 233, 201);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.colortag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.colortag-code{
+    border-radius: 20px;
+    line-height: 14px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}
+
+
+
+
+
+/* BOX-SHADOW */
+/* BOX-SHADOW */
+/* BOX-SHADOW */
+
+.shadowtag{
+    background-color: rgb(255, 253, 236);
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px auto 30px auto;
+    padding: 0px 0px 20px 0px;
+    box-shadow: 0px 1px 4px 0px #888888;
+}
+
+.shadowtag-header{
+    box-sizing: border-box;
+    background-color: rgb(126, 233, 201);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 5px 0px 58px;
+    border: 5px 5px 5px 0px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(255, 255, 255);
+}
+
+.shadowtag-body{
+    padding: 0px 5% 6px 5%;
+}   
+
+.shadowtag-code{
+    border-radius: 20px;
+    line-height: 14px;
+    /* background-color: rgb(245, 243, 228); */
+    background-color: rgb(235, 232, 210);
+    padding: 10px 5% 1px 5%;
+    margin: 0px 5% 20px 5%;
+}

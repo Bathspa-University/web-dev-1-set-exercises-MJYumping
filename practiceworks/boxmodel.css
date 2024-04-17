@@ -1,0 +1,44 @@
+h1 {
+    background-color: darkorchid;
+    border: solid darkgoldenrod 5px;
+    /* border-radius: 5px; */
+    border-top-left-radius: 10px;
+    width: 500px;
+    height: 110px;
+    /* margin: 110px; */
+    margin: 0px;
+}
+
+.ParaC1 {
+    background-color: bisque;
+    border: solid slategrey 5px;
+    border-radius: 20px;
+    width: 500px;
+    height: 110px;
+    padding: 20px 60px;
+    margin: 110px;
+}
+
+.ParaC2 {
+    background-color: yellowgreen;
+    border: solid chocolate 5px;
+    border-radius: 20px;
+    width: 500px;
+    height: 110px;
+    padding: 50px;
+    margin: 110px;
+}
+
+.ParaC3 {
+    background-color: lavender;
+    border: solid khaki 5px;
+    border-radius: 20px;
+    width: 500px;
+    height: 110px;
+    padding: 50px;
+    margin: 110px;
+}
+
+.footer{
+    text-decoration: line;
+}

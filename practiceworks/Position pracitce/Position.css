@@ -1,0 +1,38 @@
+div{border: solid black 5px;}
+
+.container {
+    border: solid rgb(201, 161, 50) 5px;
+    background-color: antiquewhite;
+    height: 800px;
+}
+
+img{
+    margin: 10px;
+}
+
+.img1{
+    /* position: relative;
+    top: 100px
+    position: absolute;
+    top: 400px */
+}
+
+.img4 {
+    position: fixed;
+}
+
+
+
+
+.container2 {
+    background-color: olivedrab;
+    height: 800px;
+    border: solid burlywood;
+}
+
+
+.img3 {
+    position: sticky;
+    top: 10px
+
+}

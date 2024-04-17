@@ -1,0 +1,37 @@
+.container{
+    background-color: #FFFFFF;
+    border: solid black 1px;
+    /* width: 400px; */
+    height: 50px;
+    display: flex;
+    margin: 10px;
+    align-items: flex-start;    
+    /* flex-direction: column-reverse; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item1{
+    background-color: orangered;
+}
+
+.item2{
+    background-color: yellowgreen;
+}
+
+.item3{
+    background-color: mediumorchid;
+}
+
+.item4{
+    background-color: pink;
+}
+
+
+.items{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    
+</head>
+<body class="mainbody">
+    
+
+    <div class="calculator">
+
+        <div class="field">
+            <div class="ratediv">
+                <label for="num1"> RATE PER LITRE: </label>
+                <input id="num1" type="number" value="1.72">
+            </div>
+            
+            <div class="x">
+                <h1>&#215;</h1>
+            </div>
+
+            <div class="literdiv">  
+                <label for="num2"> NUMBER OF LITRES BOUGHT: </label>
+                <input id="num2" type="number">
+            </div>
+        </div>
+            
+        
+        <div class="resultdiv">
+            <h1> COST OF PETROL: </h1>
+            <div class="resultbox">
+                <h1 id="result"> <br> </h1><button id="mult"> Calculate! </button>
+            </div>
+        </div>
+
+    </div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<!-- Create a simple petrol calculator. Your petrol calculator must include:
+
+* A field for the user to the enter the cost of petrol per liter. This should have a default value of 1.72
+* A field for the user to enter the number of liters purchased. This should have a default value of 0
+* A button that when clicked calculates the total cost of the petrol purchased and displays the result to the screen
+* A p tag to display the total cost
+* Comments throughout every file.
+* Buttons should include hover effects, and fields should clearly "focus" when in use.
+* Clean and professional creative styling. -->
