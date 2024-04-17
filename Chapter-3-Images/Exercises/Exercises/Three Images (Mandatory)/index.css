@@ -1,3 +1,4 @@
+/* IMAGES FLEX BOX STYLING */
 .imagesflex{
     background-color: rgb(146, 204, 243);
     border: solid rgb(146, 204, 243);
@@ -7,8 +8,13 @@
     flex-direction: row;
     justify-content: center;
 }
+/* IMAGES FLEX BOX STYLING */
 
 
+
+
+
+/* IMG EFFECTS (IMG1, IMG2, IMG3) */
 .img1{
     filter: drop-shadow(8px 8px 10px gray) saturate(110%) contrast(120%); 
 }
@@ -21,6 +27,10 @@
     filter: drop-shadow(8px 8px 10px gray) saturate(200%) invert(100%);
 }
 
+
+
+
+/* COPYRIGHT DIV STYLING */
 .copyright{
     display: flex;  
     flex-direction: row;
